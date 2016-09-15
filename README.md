@@ -5,6 +5,4 @@ When compared with the  “highest average rating” recommender system, the per
 On online dating websites, users with highest average ratings are in high demand. Users with profiles that are recommended by a personalized recommender system are less likely to be overwhelmed by suitors, and so more likely to reciprocate interest from a suitor.  So a personalized recommender system would increase the fraction of suitable matches achieved more than the numbers above suggest.
 
 
-
-
 See also the accompanying blog post [Matrix Factorization for Predicting Attractiveness Ratings](http://jonahsinick.com/collaborative-filtering-on-attractiveness-ratings/)
