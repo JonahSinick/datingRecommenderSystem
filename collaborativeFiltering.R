@@ -133,6 +133,8 @@ s = sapply(1:1000, function(num){
 #Plot these fractions
 plotdf = data.frame(x = 1:400, y = 100*s[1:400])
 g = ggplot(plotdf) + geom_smooth(aes(x, y)) +  theme_bw()
-g = g + xlab("Minimum number of ratings")
+g = g + xlab("Minimum number of profiles rated")
 g = g + ylab("Average % decrease in bad recommendations")
 g
+
+write_csv(meandf, "meandf.csv")
